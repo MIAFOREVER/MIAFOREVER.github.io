@@ -35,16 +35,12 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
+        text: '博客',
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: '技术',
+        link: '/tech/'
       }
     ],
     sidebar: {

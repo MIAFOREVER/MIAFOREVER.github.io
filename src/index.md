@@ -2,7 +2,7 @@
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Make China great again!
-actionText: Quick Start →
+actionText: Quick Start
 actionLink: /guide/
 features:
 - title: Feature 1 Title
@@ -11,5 +11,5 @@ features:
   details: Feature 2 Description
 - title: Feature 3 Title
   details: Feature 3 Description
-footer: Made by  with ❤️
+footer: Made by Yang
 ---
