@@ -1,0 +1,2661 @@
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.main-page {
+  width: 100%;
+  height: 560vh;
+  background-color: #000;
+}
+
+.first-page {
+  width: 100%;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.zhezhao {
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  position: absolute;
+}
+
+.bg-second-layer {
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('../images/Background-of-Quarry-Hill2.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 110vw 100vh;
+  background-attachment: scroll;
+  position: absolute;
+}
+
+.bg-first-layer {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('../images/PHOTO-2023-04-14-22-17-43.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  position: absolute;
+}
+
+.div-block-11 {
+  color: #fff;
+  position: absolute;
+}
+
+.text-block {
+  font-family: Great Vibes, cursive;
+  font-size: 40px;
+}
+
+.hometext {
+  z-index: 6;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.text-block-2 {
+  color: #fff;
+  padding-top: 262px;
+  font-family: Great Vibes, cursive;
+  font-size: 50px;
+}
+
+.heading {
+  color: #fdfdfd;
+  white-space: normal;
+  margin-top: 43px;
+  font-family: Oswald, sans-serif;
+  font-size: 70px;
+}
+
+.introtext {
+  z-index: 6;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.utility-page-wrap {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.utility-page-content {
+  width: 260px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+.home-intro-paragraph {
+  z-index: 13;
+  width: 50%;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+  position: static;
+}
+
+.homenavbar {
+  z-index: 5;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+}
+
+.navbar-2 {
+  width: 100%;
+  background-color: rgba(221, 221, 221, 0);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav-link {
+  width: 220px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  display: flex;
+}
+
+.nav-link-2, .nav-link-3 {
+  width: 220px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+}
+
+.nav-menu {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav-link-4 {
+  width: 220px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+}
+
+.div-block-15 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+
+.paragraph-2 {
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .07);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image {
+  width: 4%;
+  margin-top: 60px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+}
+
+.intro, .div-block-16 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+
+.main {
+  width: 100%;
+  height: 260vh;
+}
+
+.bg-first {
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/Untitled-1.PNG');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.bg-second {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/PHOTO-2023-04-14-22-17-43.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.bg-zhezhao {
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+}
+
+.div-block-17 {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar-3 {
+  z-index: 20;
+  width: 100%;
+  background-color: rgba(221, 221, 221, 0);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+}
+
+.container-2 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav-link-5 {
+  width: 23%;
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+  display: flex;
+}
+
+.nav-link-5.w--current {
+  width: 23%;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 15px;
+}
+
+.nav-link-6 {
+  width: 23%;
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 15px;
+  display: flex;
+}
+
+.nav-link-7 {
+  width: 30%;
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 15px;
+  display: flex;
+}
+
+.nav-link-8, .nav-link-9 {
+  width: 23%;
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 15px;
+  display: flex;
+}
+
+.itro {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-3 {
+  z-index: 6;
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.div-block-18 {
+  z-index: 6;
+  width: 100%;
+  height: 100vh;
+  background-color: #2a2a2a;
+  position: absolute;
+}
+
+.div-block-19 {
+  width: 100%;
+  height: 100vh;
+}
+
+.div-block-20 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+
+.div-block-21 {
+  width: 100%;
+  height: 100vh;
+}
+
+.line {
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+}
+
+.image-2 {
+  width: 25%;
+  height: 70vh;
+  margin-top: 360px;
+}
+
+.ai-intro-paragraph {
+  z-index: 10;
+  width: 40%;
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+  position: absolute;
+  overflow: visible;
+}
+
+.ai-part {
+  width: 100%;
+  height: 520vh;
+  background-color: #2a2a2a;
+  flex-flow: column;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  overflow: visible;
+}
+
+.nav-menu-2 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image-3 {
+  display: block;
+}
+
+.div-block-23 {
+  width: 5%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container-3 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  display: flex;
+  position: relative;
+  left: -112px;
+}
+
+.container-4 {
+  padding-right: 0;
+}
+
+.image-4 {
+  position: static;
+  left: -45px;
+}
+
+.container-5 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container-6 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.image-5 {
+  margin-bottom: 28px;
+}
+
+.image-5:hover {
+  transform: scale(1.3);
+}
+
+.div-block-24 {
+  width: 80%;
+  height: 100vh;
+  margin-top: 24px;
+}
+
+.heading-2 {
+  width: 100%;
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+}
+
+.paragraph-4 {
+  width: 80%;
+  color: #fdfdfd;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Jtuqjig1 i6t8kchkm459wxrys7m0dr9pa, sans-serif;
+  font-style: normal;
+  display: flex;
+}
+
+.container-7 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-25 {
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -128px;
+  margin-right: -30px;
+  display: flex;
+}
+
+.div-block-26 {
+  width: 50%;
+}
+
+.grid {
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  grid-template: "Area Area-2 Area-2 Area-2" minmax(0, 500px)
+                 "Area Area-3 Area-4 Area-5"
+                 / 1fr 1fr 1fr;
+}
+
+.grid-2 {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  transform-style: preserve-3d;
+  grid-template: "Area Area Area" minmax(200px, 270px)
+  / minmax(90px, 1px) minmax(90px, 1px) minmax(90px, 1px) minmax(150px, 150px) minmax(150px, 150px) minmax(150px, 150px);
+  grid-auto-columns: 1fr;
+  align-content: end;
+  justify-content: space-around;
+  display: grid;
+}
+
+.grid-2:hover {
+  transform: scale3d(1none, 1none, 1none);
+}
+
+.div-block-27 {
+  z-index: 3;
+  width: 37%;
+  height: 102%;
+  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+}
+
+.image-6 {
+  z-index: 1;
+  width: 295px;
+  position: absolute;
+  overflow: visible;
+}
+
+.div-block-28 {
+  z-index: 3;
+  width: 150px;
+  height: 53%;
+  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+}
+
+.step1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #212121;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-30 {
+  width: 50%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image-7 {
+  width: 70%;
+  margin-left: 40px;
+}
+
+.paragraph-5 {
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+}
+
+.teach {
+  width: 40%;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  display: flex;
+}
+
+.teach:active {
+  opacity: 1;
+}
+
+._1 {
+  opacity: 1;
+  color: #fdfdfd;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  position: static;
+}
+
+._1:active {
+  opacity: 0;
+}
+
+.heading-3 {
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  display: flex;
+}
+
+.paragraph-7 {
+  z-index: 2;
+  color: #fdfdfd;
+  position: absolute;
+}
+
+.paragraph-7:active {
+  opacity: 0;
+}
+
+.button {
+  margin-top: 174px;
+}
+
+.ai1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #2a2a2a;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+._2 {
+  color: #fdfdfd;
+}
+
+.heading-4 {
+  color: #fdfdfd;
+  text-transform: capitalize;
+  align-items: flex-start;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+  display: flex;
+  position: absolute;
+}
+
+._3 {
+  color: #fdfdfd;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.grid-3 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: minmax(auto, 150px) minmax(auto, 150px) minmax(auto, 150px);
+  grid-template-columns: minmax(286px, 1px) minmax(163px, 1px);
+  position: absolute;
+}
+
+.div-block-31 {
+  width: 15%;
+  height: 20vh;
+  color: #000;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+}
+
+.paragraph-8 {
+  z-index: 1;
+  width: 15%;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  background-color: #1f1f1f;
+  margin-top: 13px;
+  position: absolute;
+  top: 186.25px;
+}
+
+.paragraph-8.forest {
+  color: #000;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+}
+
+.link-block {
+  width: 100%;
+  height: 100%;
+}
+
+.button-2 {
+  width: 150px;
+  height: 40px;
+  color: #ebebeb;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(67, 73, 77, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-size: 120% 360%;
+  padding: 9px 15px;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  position: absolute;
+  top: 78%;
+  bottom: auto;
+  left: 65%;
+  right: auto;
+}
+
+.div-block-32 {
+  width: 70%;
+  height: 10%;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.div-block-33 {
+  width: 70%;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-9 {
+  z-index: 2;
+  width: 15%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 306.75px;
+  left: 147.898px;
+}
+
+.paragraph-10 {
+  z-index: 2;
+  width: 15%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 286.75px;
+  left: 465.898px;
+  right: 663.508px;
+}
+
+.paragraph-11 {
+  z-index: 2;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  bottom: 135.25px;
+  left: 165.766px;
+}
+
+.paragraph-12 {
+  z-index: 2;
+  width: 15%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 474.75px;
+  bottom: 197.25px;
+  left: 382.898px;
+  right: 699.508px;
+}
+
+.ai2 {
+  width: 100%;
+  height: 100vh;
+  background-color: #2a2a2a;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.grid-div {
+  width: 50%;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.grid-4 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: minmax(162px, 160px) minmax(163px, 150px) minmax(163px, 1px);
+  grid-template-columns: minmax(178px, 286px) minmax(202px, 1px);
+}
+
+.forest {
+  z-index: 2;
+  position: absolute;
+}
+
+.paragraph-13 {
+  z-index: 2;
+  width: 15%;
+  color: #fdfdfd;
+  text-align: center;
+  background-color: #1a1a1a;
+  margin-top: -390px;
+  margin-left: -276px;
+  position: absolute;
+}
+
+.paragraph-14 {
+  z-index: 2;
+  width: 15%;
+  color: #fdfdfd;
+  text-align: center;
+  background-color: #1a1a1a;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.paragraph-15 {
+  z-index: 2;
+  width: 15%;
+  color: #fdfdfd;
+  text-align: center;
+  background-color: #000;
+  position: absolute;
+  top: 1296.5px;
+  left: 339.594px;
+}
+
+.paragraph-16 {
+  z-index: 2;
+  width: 15%;
+  color: #fdfdfd;
+  text-align: center;
+  background-color: #000;
+  position: absolute;
+  left: 369.594px;
+}
+
+.paragraph-17 {
+  z-index: 2;
+  width: 15%;
+  color: #fdfdfd;
+  text-align: center;
+  background-color: #1a1a1a;
+  position: absolute;
+  left: 649.594px;
+}
+
+.heading-5 {
+  color: #fdfdfd;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+  display: flex;
+}
+
+.div-block-35 {
+  z-index: 0;
+  width: 50%;
+  height: 70vh;
+  position: absolute;
+}
+
+.paragraph-18 {
+  color: #fff;
+}
+
+.paragraph-19 {
+  width: 35%;
+  opacity: 1;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 5%;
+  right: auto;
+}
+
+.paragraph-20 {
+  width: 40%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: 5%;
+}
+
+.paragraph-21 {
+  position: absolute;
+}
+
+.paragraph-22 {
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: auto;
+  bottom: 10%;
+  left: 30%;
+  right: auto;
+}
+
+.paragraph-23 {
+  width: 35%;
+  position: absolute;
+}
+
+.paragraph-24 {
+  width: 30%;
+  color: #000;
+  text-align: center;
+  -webkit-text-fill-color: inherit;
+  background-color: rgba(253, 253, 253, .6);
+  background-clip: border-box;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: auto;
+  bottom: 45%;
+  left: 10%;
+  right: auto;
+}
+
+.paragraph-25 {
+  width: 30%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+.div-block-36 {
+  position: static;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.dierceng-xia {
+  width: 50%;
+  height: 70vh;
+}
+
+.diyicengzuo {
+  width: 55%;
+  height: 85vh;
+}
+
+.diercengyou {
+  width: 20%;
+  height: 60vh;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+
+.ai3 {
+  width: 100%;
+  height: 100vh;
+  background-color: #2a2a2a;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.diyiceng {
+  width: 55%;
+  height: 85vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.div-block-41 {
+  width: 10%;
+  height: 60vh;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+
+.div-block-42 {
+  width: 100%;
+  height: 20vh;
+}
+
+.div-block-43 {
+  width: 50%;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.grid-5 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: auto auto;
+  grid-template-columns: minmax(250px, 1px) minmax(250px, 1px);
+}
+
+.heading-6 {
+  color: #fdfdfd;
+  text-transform: capitalize;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.dierceng-shang {
+  width: 90%;
+}
+
+.paragraph-26 {
+  width: 30%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 10%;
+  bottom: auto;
+  left: 10%;
+  right: auto;
+}
+
+.div-block-44 {
+  width: 50%;
+  height: 70vh;
+  position: absolute;
+}
+
+.paragraph-27 {
+  width: 35%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 35%;
+  bottom: auto;
+  left: auto;
+  right: 25%;
+}
+
+.paragraph-28 {
+  width: 30%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: auto;
+  bottom: 20%;
+  left: 0%;
+  right: auto;
+}
+
+.paragraph-29 {
+  width: 40%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: auto;
+  bottom: 5%;
+  left: auto;
+  right: 25%;
+}
+
+.div-block-45 {
+  width: 90%;
+}
+
+.button-3 {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-size: 120% 360%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+}
+
+.ai4 {
+  width: 100%;
+  height: 100vh;
+  background-color: #2a2a2a;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-46 {
+  width: 55%;
+  height: 85vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.grid-6 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: minmax(250px, 1px) minmax(250px, 1px);
+  grid-template-columns: minmax(250px, 1px) minmax(250px, 1px);
+  position: absolute;
+}
+
+.heading-7 {
+  color: #fdfdfd;
+  text-transform: capitalize;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.div-block-47 {
+  width: 50%;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-48 {
+  width: 90%;
+}
+
+.div-block-49 {
+  width: 10%;
+  height: 60vh;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+
+.div-block-50 {
+  width: 50%;
+  height: 70vh;
+  position: absolute;
+}
+
+.paragraph-30 {
+  position: absolute;
+}
+
+.paragraph-31 {
+  z-index: 2;
+  width: 35%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 10%;
+  bottom: auto;
+  left: 5%;
+  right: auto;
+}
+
+.paragraph-32 {
+  position: absolute;
+}
+
+.paragraph-33 {
+  z-index: 2;
+  width: 35%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 5%;
+  bottom: auto;
+  left: auto;
+  right: 10%;
+}
+
+.paragraph-34 {
+  width: 30%;
+  position: absolute;
+}
+
+.paragraph-35 {
+  z-index: 2;
+  width: 35%;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: auto;
+  bottom: 10%;
+  left: 5%;
+  right: auto;
+}
+
+.paragraph-36 {
+  z-index: 2;
+  width: auto;
+  color: #000;
+  text-align: center;
+  background-color: rgba(253, 253, 253, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: auto;
+  bottom: 20%;
+  left: auto;
+  right: 20%;
+}
+
+.ai5, .ai6, .ai7, .ai8 {
+  width: 100%;
+  height: 100vh;
+  background-color: #2a2a2a;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ai-part1 {
+  width: 100%;
+  height: 55vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  display: flex;
+}
+
+.ai-part2 {
+  width: 100%;
+  height: 44vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.heading-8 {
+  color: #fdfdfd;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 20px;
+}
+
+.grid-7 {
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: minmax(220px, 1px) minmax(220px, 1px) minmax(220px, 1px) minmax(220px, 1px);
+}
+
+.c-wrapper {
+  opacity: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.c-wrapper.is--text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dragula-container {
+  width: 45%;
+  height: 100vh;
+  display: inline-block;
+}
+
+.c-card__two {
+  width: 90%;
+  height: 50px;
+  color: #fdfdfd;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 85% 390%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  display: flex;
+}
+
+.c-card__one {
+  width: 90%;
+  height: 50px;
+  color: #fdfdfd;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color: rgba(28, 28, 28, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 85% 390%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+}
+
+.ai-part3 {
+  width: 100%;
+  height: 170vh;
+}
+
+.div-block-51 {
+  z-index: 2;
+  width: 220px;
+  height: 220px;
+  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+}
+
+.div-block-52, .div-block-53, .div-block-54 {
+  z-index: 2;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, .5);
+  position: absolute;
+}
+
+.link-block-2 {
+  width: 100%;
+  height: 100%;
+  position: static;
+}
+
+.link-block-3 {
+  width: 100%;
+  height: 100%;
+}
+
+.link-block-4 {
+  width: 120%;
+  height: 100%;
+}
+
+.link-block-5, .link-block-6, .link-block-7, .link-block-8 {
+  width: 100%;
+  height: 100%;
+}
+
+.div-block-55 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.heading-9 {
+  color: #fdfdfd;
+  text-transform: capitalize;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 22px;
+}
+
+.paragraph-37 {
+  width: 45%;
+  color: #bae6b8;
+  text-align: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 18px;
+}
+
+.div-block-56 {
+  width: 100%;
+  text-transform: capitalize;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+
+.div-block-57 {
+  height: 50vh;
+}
+
+.paragraph-38 {
+  width: 50%;
+  color: #ff9090;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 18px;
+  display: flex;
+}
+
+.visual {
+  width: 100%;
+  height: 200vh;
+  background-color: #2a2a2a;
+  background-image: url('../images/Healthy-and-Unhealthy.png');
+  background-position: 50% 0;
+  background-size: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-58 {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.heading-10 {
+  color: #fdfdfd;
+  text-align: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 30px;
+}
+
+.paragraph-39 {
+  width: 85%;
+  color: #fdfdfd;
+  text-align: left;
+  background-color: rgba(0, 0, 0, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.grid-8 {
+  width: 100%;
+  grid-column-gap: 0px;
+  grid-template-rows: minmax(auto, 100vh);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button-4 {
+  z-index: 15;
+  position: static;
+  top: auto;
+  bottom: 0%;
+  left: 20%;
+  right: auto;
+}
+
+.div-block-59 {
+  z-index: 15;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.div-block-60 {
+  z-index: 15;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: static;
+}
+
+.button-5 {
+  z-index: 11;
+  position: absolute;
+}
+
+.button-6 {
+  align-items: flex-end;
+  display: flex;
+}
+
+.div-block-61 {
+  width: 100%;
+}
+
+.button-7 {
+  z-index: 12;
+  position: absolute;
+}
+
+.div-block-62 {
+  z-index: 12;
+  width: 100%;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 228px;
+  margin-left: 122px;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  position: absolute;
+}
+
+.div-block-63 {
+  width: 198px;
+  height: 100px;
+  background-color: #fdfdfd;
+}
+
+.critial {
+  width: 100%;
+  height: 200vh;
+  background-image: url('../images/Critical-thinking-part-background.png');
+  background-position: 0 0;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.visual1 {
+  width: 100%;
+  height: 105vh;
+  background-color: #2a2a2a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-65 {
+  z-index: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(42, 42, 42, .6);
+  position: absolute;
+}
+
+.div-block-66 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/1.png');
+  background-position: 0 0;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  position: static;
+}
+
+.div-block-67 {
+  background-image: url('../images/2.png');
+  background-position: 0 0;
+  background-size: 100%;
+}
+
+.div-block-68 {
+  background-image: url('../images/3.png');
+  background-position: 0 0;
+  background-size: 100%;
+}
+
+.div-block-69 {
+  background-image: url('../images/4.png');
+  background-position: 0 0;
+  background-size: 100%;
+}
+
+.div-block-70 {
+  background-image: url('../images/5.png');
+  background-position: 0 0;
+  background-size: 100%;
+}
+
+.div-block-71 {
+  z-index: 1;
+  width: 20%;
+  height: 100vh;
+  background-color: rgba(42, 42, 42, .6);
+  justify-content: center;
+  align-items: center;
+  display: block;
+  position: absolute;
+}
+
+.div-block-72, .div-block-73, .div-block-74, .div-block-75 {
+  width: 20%;
+  height: 100vh;
+  background-color: rgba(42, 42, 42, .6);
+  position: absolute;
+}
+
+.link-block-9, .link-block-10 {
+  z-index: 10;
+  width: 20%;
+  height: 100vh;
+  position: absolute;
+}
+
+.link-block-11, .link-block-12, .link-block-13 {
+  z-index: 3;
+  width: 20%;
+  height: 100vh;
+  position: absolute;
+}
+
+.div-block-76 {
+  width: 100%;
+  height: 70%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-77 {
+  width: 80%;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-40 {
+  color: #fdfdfd;
+  text-transform: capitalize;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paragraph-41 {
+  width: 80%;
+  color: #fdfdfd;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+  display: flex;
+}
+
+.visual2 {
+  width: 100%;
+  height: 105vh;
+  background-color: #2a2a2a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-78 {
+  width: 80%;
+  height: 70%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-79 {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-42 {
+  color: #fdfdfd;
+  text-transform: capitalize;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paragraph-43 {
+  width: 60%;
+  color: #fdfdfd;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.visual3 {
+  width: 100%;
+  height: 105vh;
+  background-color: #2a2a2a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-81 {
+  width: 100%;
+  height: 70%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-82 {
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-44 {
+  color: #fdfdfd;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paragraph-45 {
+  width: 60%;
+  color: #fdfdfd;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.visual4 {
+  width: 100%;
+  height: 105vh;
+  background-color: #2a2a2a;
+}
+
+.div-block-83 {
+  width: 100%;
+  height: 70%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-84 {
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-46 {
+  color: #fdfdfd;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paragraph-47 {
+  width: 60%;
+  color: #fdfdfd;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.container-8 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+}
+
+.nav-menu-3 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav-link-10 {
+  width: 23%;
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 15px;
+  display: flex;
+}
+
+.nav-link-11 {
+  width: 23%;
+  color: #0082f3;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 15px;
+  display: flex;
+}
+
+.nav-link-12 {
+  width: 40%;
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 15px;
+  display: flex;
+}
+
+.navbar-4 {
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: fixed;
+}
+
+.visual5 {
+  width: 100%;
+  height: 105vh;
+  background-color: #2a2a2a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-85 {
+  width: 100%;
+  height: 200vh;
+  background-image: url('../images/Literature-review-main-page-background.png');
+  background-position: 0 0;
+  background-size: auto;
+}
+
+.image-8 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/Literature-review-main-page-background.png');
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.image-9 {
+  width: 100%;
+  opacity: 1;
+  filter: blur(2px);
+}
+
+.div-block-86 {
+  width: 100%;
+  height: 300vh;
+  background-image: url('../images/Literature-Review.png');
+  background-position: 0 0;
+  background-size: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.heading-11 {
+  width: 60%;
+  color: #fdfdfd;
+  text-align: center;
+  background-color: rgba(203, 182, 182, 0);
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  display: flex;
+}
+
+.paragraph-48 {
+  width: 60%;
+}
+
+.paragraph-49 {
+  width: 60%;
+  color: #fdfdfd;
+  background-color: rgba(0, 0, 0, .25);
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.rich-text-block {
+  color: #fdfdfd;
+}
+
+.div-block-87 {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.div-block-88 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-image: url('../images/Button_new.png');
+  background-position: 0 0;
+  background-size: auto;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.heading-12 {
+  color: #fdfdfd;
+  background-color: #2a2a2a;
+  font-family: "Sharp grotesk book 25", sans-serif;
+}
+
+.paragraph-50 {
+  width: 60%;
+  color: #fdfdfd;
+  background-color: rgba(42, 42, 42, .7);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.button-8 {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-size: 120% 360%;
+  margin-left: 36px;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.image-10 {
+  width: 3%;
+  margin-top: 300px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.button-9 {
+  width: 250px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url('../images/WechatIMG2463.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-10 {
+  width: 200px;
+  height: 46px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(252, 252, 252, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-size: 120% 380%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+}
+
+.italic-text {
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.button-11 {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 120% 360%;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-12 {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-size: 120% 360%;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-13 {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 120% 360%;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-14, .button-15 {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-size: 120% 360%;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-16 {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 120% 360%;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-17 {
+  width: 150px;
+  height: 40px;
+  text-transform: capitalize;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-size: 120% 360%;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.div-block-89 {
+  width: 100%;
+  height: 200vh;
+  background-color: rgba(0, 0, 0, .54);
+  position: absolute;
+}
+
+.grids1 {
+  width: 100%;
+  height: 120vh;
+}
+
+.div-block-91, .div-block-92, .div-block-93 {
+  height: 60%;
+}
+
+.words1 {
+  width: 100%;
+  height: 80vh;
+  background-image: url('../images/AI-generator.png');
+  background-position: 0 0;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-51 {
+  width: 60%;
+  color: #fdfdfd;
+  background-color: rgba(0, 0, 0, .6);
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 13px;
+}
+
+.words2 {
+  width: 100%;
+  height: 80vh;
+  background-image: url('../images/AI-generator.png');
+  background-position: 0 0;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-52 {
+  width: 60%;
+  color: #fdfdfd;
+  background-color: rgba(0, 0, 0, .6);
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+}
+
+.bold-text {
+  width: 60%;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.words3 {
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-53 {
+  width: 60%;
+  color: #fdfdfd;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.bold-text-2, .bold-text-3, .bold-text-4 {
+  font-weight: 400;
+}
+
+.italic-text-2 {
+  font-style: normal;
+}
+
+.div-block-94 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image-11 {
+  width: 50%;
+}
+
+.image-12 {
+  width: 40%;
+}
+
+.div-block-95 {
+  width: 100%;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  display: flex;
+}
+
+.div-block-96 {
+  width: 100%;
+  height: 55%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-54 {
+  width: 60%;
+  color: #fdfdfd;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+  display: flex;
+}
+
+.div-block-97 {
+  width: 100%;
+}
+
+.paragraph-55 {
+  color: #fdfdfd;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Sharp grotesk book 25", sans-serif;
+}
+
+.div-block-98 {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image-13 {
+  width: 50%;
+}
+
+.image-14 {
+  width: 40%;
+  height: 20%;
+}
+
+.image-15 {
+  width: 50%;
+  margin-top: 150px;
+  margin-left: 185px;
+  padding-left: 0;
+}
+
+.div-block-99 {
+  width: 100%;
+  height: 400vh;
+  background-color: #2a2a2a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.body, .body-2 {
+  overflow: hidden;
+}
+
+.paragraph-56 {
+  color: #fdfdfd;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.div-block-100 {
+  width: 90%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-57 {
+  color: #fdfdfd;
+  text-align: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.div-block-101 {
+  width: 90%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-58 {
+  color: #fdfdfd;
+  text-align: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.div-block-102 {
+  width: 90%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-59 {
+  color: #fdfdfd;
+  text-align: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.div-block-103 {
+  width: 90%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image-16, .image-17, .image-18, .image-19 {
+  width: 90%;
+  height: 90%;
+}
+
+.link {
+  color: #32a0ff;
+  text-align: center;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+}
+
+.button-18 {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(42, 42, 42, 0);
+  background-image: url('../images/Button_new.png');
+  background-position: 50%;
+  background-size: 121% 360%;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 12px;
+  position: fixed;
+  top: auto;
+  bottom: 17%;
+  left: auto;
+  right: 3%;
+}
+
+.div-block-104 {
+  width: 20%;
+  height: 40%;
+  min-height: auto;
+  min-width: auto;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.button-19 {
+  position: absolute;
+  top: 78px;
+  left: 65px;
+}
+
+.paragraph-60 {
+  width: 100%;
+  color: #fdfdfd;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: -6px;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  font-size: 14px;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+
+.div-block-105 {
+  z-index: 2;
+  width: 20%;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.paragraph-61 {
+  color: #fdfdfd;
+  text-align: center;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  font-family: "Sharp grotesk book 25", sans-serif;
+  display: flex;
+}
+
+.div-block-106 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.div-block-107 {
+  position: absolute;
+  top: auto;
+  bottom: 2%;
+  left: 0%;
+  right: 0%;
+}
+
+.image-20 {
+  width: 20%;
+  height: 20px;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .homenavbar {
+    align-items: flex-start;
+  }
+
+  .navbar-2 {
+    width: 100%;
+    background-color: rgba(221, 221, 221, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .nav-link, .nav-link-2, .nav-link-3 {
+    width: 230px;
+  }
+
+  .nav-menu {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .nav-link-4 {
+    width: 230px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+#w-node-e55e663a-57fc-b4d5-5032-5baac23e4c22-423c7cf0 {
+  grid-area: Area;
+}
+
+#w-node-_34c79991-4f70-19f4-a1e6-a3aa4722d134-423c7cf0, #w-node-f40f94a4-1ff7-f84b-ae9e-5386646f0f8d-423c7cf0, #w-node-f5ccb0c1-f74b-58d6-c7db-ceb059024f50-423c7cf0, #w-node-_096dbf3d-f4ab-1b4a-98ae-90060346229c-423c7cf0, #w-node-f40479d0-7216-9a50-0537-3aad6ce72245-423c7cf0, #w-node-_419a0a7c-a2a1-6ac1-9483-4ef7fff436f0-423c7cf0, #w-node-b292b1d5-151c-1431-d538-1a14ad2304c3-423c7cf0, #w-node-_7050ac1e-1258-210d-ee82-c105926b7add-423c7cf0, #w-node-_82085097-83b1-fca4-9a59-a4df5d3ec76d-423c7cf0, #w-node-_9d203bb6-7361-5101-c4f5-b6ebaf6f8ba1-423c7cf0, #w-node-fbfe0a18-7777-d158-3e28-95e6d5cd46ea-423c7cf0, #w-node-_9d9ca8b3-bc63-163f-7115-a8da8d15a01c-423c7cf0, #w-node-_2af02e3b-a0f2-2fd0-6ea9-d0d1e23ff6a9-423c7cf0, #w-node-_3c2dc770-8e29-9960-f9b5-f13e37a4e27a-423c7cf0, #w-node-d06cb21f-fe20-b92b-30d2-66c5b4a1d389-423c7cf0, #w-node-_2392d10c-7ec0-5408-f130-a99d3c1b9e42-423c7cf0, #w-node-_3893cf78-5d6c-2272-f4d8-bec2b18e8660-423c7cf0, #w-node-_43654f9e-0396-debb-27db-96774b418fe0-423c7cf0, #w-node-_287c6e8c-3484-84ed-eec5-a66647f950be-423c7cf0, #w-node-cd73c833-417e-1d1f-b2de-f67f92f7e3eb-d9ab8156, #w-node-de6ce8eb-39e2-f8f0-07c4-6c8b5fabcf1e-d9ab8156, #w-node-c39f9860-2bd5-cc47-e39f-7cc617e3d468-d9ab8156, #w-node-_28446c82-d7b1-aa96-ae34-d6324fa0fec0-d9ab8156, #w-node-_2e633001-3f77-39cd-d3d5-1b2aa970f600-d9ab8156, #w-node-_46d606ed-d3f3-4e50-deee-c5734f9cda01-d9ab8156, #w-node-ccc33a7f-a2f1-480a-6460-2e5d86f2b829-d9ab8156, #w-node-_3541ba91-c403-b025-b627-30b647805da9-d9ab8156, #w-node-_9cb0244d-0294-5d62-f96e-47ad0cba0a18-d9ab8156, #w-node-bfd04d8b-e03b-1560-23b0-f02307d03c41-d9ab8156, #w-node-_141a9a37-2722-bcf8-097b-c2cf8e9d9724-d9ab8156, #w-node-c3344689-4db2-4986-f505-4b94c5b3a11a-d9ab8156, #w-node-_479a63b8-4ac0-0cee-3eb5-8da08f5d4af2-d9ab8156, #w-node-e35fbb78-e0a0-3075-141f-2758b2f349a2-d9ab8156, #w-node-d63a51ff-5390-84af-cb08-c83cf73d27d3-d9ab8156, #w-node-e0dbb848-ec63-5000-0563-b8dc6dbba4a6-d9ab8156, #w-node-a054791c-dd82-cc6b-5f11-3bdb762582a3-d9ab8156, #w-node-d0cb5be5-1778-81b6-442d-bd3925de2d70-d9ab8156, #w-node-_86690ec3-5abd-d667-76fa-07cb18b60dc7-d9ab8156, #w-node-_5988779a-2720-4300-2c49-6a07321937e4-d9ab8156, #w-node-_6c4fb6df-645e-6556-ee68-f269f8103c61-d9ab8156, #w-node-_6c4fb6df-645e-6556-ee68-f269f8103c62-d9ab8156, #w-node-_6c4fb6df-645e-6556-ee68-f269f8103c63-d9ab8156, #w-node-_6c4fb6df-645e-6556-ee68-f269f8103c64-d9ab8156, #w-node-_3ea1f605-d642-3a6d-f0b7-bc91873d62de-d9ab8156, #w-node-_3ea1f605-d642-3a6d-f0b7-bc91873d62df-d9ab8156, #w-node-_3ea1f605-d642-3a6d-f0b7-bc91873d62e0-d9ab8156, #w-node-_3ea1f605-d642-3a6d-f0b7-bc91873d62e1-d9ab8156, #w-node-a96756e8-9e96-4f2c-202e-b73954aa8893-d9ab8156, #w-node-a96756e8-9e96-4f2c-202e-b73954aa8894-d9ab8156, #w-node-a96756e8-9e96-4f2c-202e-b73954aa8895-d9ab8156, #w-node-a96756e8-9e96-4f2c-202e-b73954aa8896-d9ab8156, #w-node-_623c0b48-28b5-d930-8466-9bb4b210c4aa-d9ab8156, #w-node-_623c0b48-28b5-d930-8466-9bb4b210c4ab-d9ab8156, #w-node-_623c0b48-28b5-d930-8466-9bb4b210c4ac-d9ab8156, #w-node-_623c0b48-28b5-d930-8466-9bb4b210c4ad-d9ab8156 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+
+@font-face {
+  font-family: 'Jtuqjig1 i6t8kchkm459wxrys7m0dr9pa';
+  src: url('../fonts/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jtusjig1 i6t8kchkm459wlhyyth89y';
+  src: url('../fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sharp grotesk book 25';
+  src: url('../fonts/Sharp-Grotesk-Book-25-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atlan';
+  src: url('../fonts/Atlan-BlackIt.otf') format('opentype'), url('../fonts/Atlan-Black.otf') format('opentype'), url('../fonts/Atlan-HeavyIt.otf') format('opentype'), url('../fonts/Atlan-Heavy.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atlan';
+  src: url('../fonts/Atlan-Bold.otf') format('opentype'), url('../fonts/Atlan-BoldIt.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atlan';
+  src: url('../fonts/Atlan-ExtraLightIt.otf') format('opentype'), url('../fonts/Atlan-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atlan';
+  src: url('../fonts/Atlan-LightIt.otf') format('opentype'), url('../fonts/Atlan-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atlan';
+  src: url('../fonts/Atlan-RegularIt.otf') format('opentype'), url('../fonts/Atlan-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atlan';
+  src: url('../fonts/Atlan-SemiBold.otf') format('opentype'), url('../fonts/Atlan-SemiBoldIt.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Atlan';
+  src: url('../fonts/Atlan-Thin.otf') format('opentype'), url('../fonts/Atlan-ThinIt.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
