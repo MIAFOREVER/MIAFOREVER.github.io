@@ -6,23 +6,12 @@
  <title>test！</title>
 </head>
 <body>
+    <div style="border: 3px dotted#ff9900; width: 400px; height: 400px"><img
+        class="fit-picture"
+        src="./replicatevalue_poc.webp"
+        alt="Grapefruit slice atop a pile of other slices"
+      /></div>
  <script>
-    let v1;
-    function f0(v4) {
-        v4(() => { }, v5 => {
-            v1 = v5.errors;
-        });
-    }
-    f0.resolve = function (v6) {
-        return v6;
-    };
-    let v3 = {
-        then(v7, v8) {
-            v8();
-        }
-    };
-    Promise.any.call(f0, [v3]);
-    alert(v1[1]);
  </script>
 </body>
 </html>
